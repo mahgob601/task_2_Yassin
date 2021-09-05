@@ -119,8 +119,8 @@ class Contestant extends Person
 
 class Coach extends Person
 {
-    int years_of_experience;
-    String teamSupervised;
+    private int years_of_experience;
+    private String teamSupervised;
 
     Coach(String name,String uniName,int age,String gender, int years_of_experience, String teamSupervised)
     {
